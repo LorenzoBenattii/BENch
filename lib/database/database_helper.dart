@@ -184,9 +184,9 @@ Future<void> resetDatabase() async {
 }
 
 
-// ============================================================
+
 // NOTIFICATIONS
-// ============================================================
+
 
 /// Saves a new notification and returns its database ID.
 Future<int> insertNotification(
@@ -246,9 +246,9 @@ Future<void> deleteNotification(
 }
 
 
-// ============================================================
+
 // PLAYERS
-// ============================================================
+
 
 Future<int> insertPlayer(Player player) async {
   final db = await getDatabase();
@@ -364,9 +364,9 @@ Future<void> editPlayer(Player player) async {
 }
 
 
-// ============================================================
+
 // TEAMS
-// ============================================================
+
 
 Future<void> insertTeam(Team team) async {
   final db = await getDatabase();
@@ -420,9 +420,9 @@ Future<void> editTeam(Team team) async {
 }
 
 
-// ============================================================
+
 // SESSIONS
-// ============================================================
+
 
 Future<int> insertSession(Session session) async {
   final db = await getDatabase();
@@ -519,9 +519,9 @@ Future<void> editSession(Session session) async {
 }
 
 
-// ============================================================
+
 // ATTENDANCE
-// ============================================================
+
 
 Future<void> insertAttendance(
   Attendance attendance,
@@ -591,9 +591,9 @@ Future<void> editAttendance(
 }
 
 
-// ============================================================
+
 // TEAM ATTENDANCE
-// ============================================================
+
 
 Future<List<Map<String, dynamic>>> getTeamAttendance(
   int teamId,

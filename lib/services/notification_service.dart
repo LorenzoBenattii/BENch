@@ -21,8 +21,12 @@ class NotificationService {
       '@mipmap/ic_launcher',
     );
 
-    const iosSettings = DarwinInitializationSettings();
-
+    const iosSettings = DarwinInitializationSettings( 
+      requestAlertPermission: false, 
+      requestBadgePermission: false, 
+      requestSoundPermission: false, 
+      
+      );
     const settings = InitializationSettings(
       android: androidSettings,
       iOS: iosSettings,
@@ -112,18 +116,7 @@ class NotificationService {
 
 
 
-  static void debugTime() {
-    final dartNow = DateTime.now();
-    final tzNow = tz.TZDateTime.now(tz.local);
-
-    print("DateTime.now(): $dartNow");
-    print("tz.local: ${tz.local.name}");
-    print("TZDateTime.now(tz.local): $tzNow");
-    print(
-      "TimeOfDay.now(): "
-      "${TimeOfDay.now().hour}:${TimeOfDay.now().minute}",
-    );
-}
+  
 
 
 
