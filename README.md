@@ -18,6 +18,5 @@ Built With
 Getting Started
 
 Clone the repository and run:
-
-flutter pub get
-flutter run
+- flutter pub get
+- flutter run
