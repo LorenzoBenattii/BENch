@@ -1,17 +1,23 @@
 # BENch
 
-A new Flutter project.
+A simple mobile app for managing volleyball team attendance.
 
-## Getting Started
+Features
+- Manage multiple volleyball teams
+- Record player attendance
+- View attendance statistics
+- Keep track of individual players
+- Simple and easy-to-use interface
 
-This project is a starting point for a Flutter application.
+Built With
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter
+- Dart
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Getting Started
+
+Clone the repository and run:
+
+flutter pub get
+flutter run
